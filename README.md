@@ -11,10 +11,12 @@ Clone the repository
 Switch to the repo folder
 
     cd TodoList
-Install all the dependencies using composer
+Install all the dependencies 
 
     composer install
+    npm install
 
+    
 Copy the example env file and make the required configuration changes in the .env file
 
     cp .env.example .env
@@ -22,6 +24,10 @@ Copy the example env file and make the required configuration changes in the .en
 Generate a new application key
 
     php artisan key:generate
+    
+Watching Assets For Changes
+
+    npm run watch
     
 start the Laravel WebSocket server by issuing the artisan command:
 
