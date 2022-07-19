@@ -1,0 +1,50 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "deepmerge": "^4.2.2",
+        "laravel-echo": "^1.12.1",
+        "laravel-mix": "^6.0.10",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "pusher-js": "^7.2.0",
+        "sass": "^1.53.0",
+        "sass-loader": "^13.0.2",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome": "^1.1.8",
+        "@fortawesome/fontawesome-free": "^6.1.1",
+        "@fortawesome/fontawesome-free-brands": "^5.0.13",
+        "@fortawesome/fontawesome-free-solid": "^5.0.13",
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/vue-fontawesome": "^3.0.1",
+        "@vue/reactivity": "^3.2.37",
+        "@vue/runtime-core": "^3.2.37",
+        "add": "^2.0.6",
+        "axios": "^0.21",
+        "bootstrap-icons": "^1.9.1",
+        "laravel-echo": "^1.12.1",
+        "laravel-mix": "^6.0.10",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "pusher-js": "^7.2.0",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12",
+        "vue-toastification": "^1.7.14",
+        "vuetify": "^2.6.7"
+    }
+}
